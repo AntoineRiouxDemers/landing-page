@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Multiple Class/ID/Items */
+
+.content{
+    align-items: center;
+    padding: 0 200px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header,
+.content#one{
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    padding: 20px 200px;
+}
+
+.row-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+/* Content #1 */
+
+#one-title{
+    font-size: 48px;
+}
+
+.content#one img{
+    width: 400px;
+    height: 200px;
+}
+
+/* Content #2 */
+
+.content#two{
+    flex-direction: column;
+}
+
+.content#two img{
+    width: 200px;
+    height: 200px;
+}
+
