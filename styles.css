@@ -27,9 +27,10 @@ button{
 .content{
     align-items: center;
     padding: 0 350px;
-    height: 550px;
+    height: 560px;
     display: flex;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .header,
@@ -47,12 +48,14 @@ button{
 }
 
 #logo{
+    min-width: 200px;
     font-size: 24px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
 .row-list{
+    margin: 0;
     display: flex;
     list-style-type: none;
     gap: 75px;
@@ -70,6 +73,7 @@ button{
 }
 
 #one-title{
+    min-width: 470px;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -95,6 +99,8 @@ button{
 /* Content #2 */
 
 #two-title{
+    margin-bottom: 50px;
+    min-width: 460px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -122,19 +128,18 @@ button{
 
 /* Content #3 */
 
-#three-container{
-    padding: 0 100px ;
-}
-
 .content#three{
     background-color: #E5E7EB;
 }
 
 #three-container{
     color: #1F2937;
+    padding: 0 100px ;
 }
 
 #three-content{
+    padding-left: 100px;
+    min-width: 1020px;
     font-size: 36px;
     font-style: italic;
 }
